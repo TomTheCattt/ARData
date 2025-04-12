@@ -443,7 +443,7 @@
           1413
         ]
       ],
-      "startAngle" : 118,
+      "startAngle" : 180,
       "endRoom" : "A124"
     },
     {
@@ -555,7 +555,7 @@
       "endRoom" : "A134"
     },
     {
-      "startAngle" : 280,
+      "startAngle" : 0,
       "endRoom" : "A125",
       "path" : [
         [
@@ -571,7 +571,7 @@
     },
     {
       "startRoom" : "A124",
-      "startAngle" : 280,
+      "startAngle" : 0,
       "endRoom" : "WC",
       "path" : [
         [
