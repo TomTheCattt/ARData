@@ -1,18 +1,18 @@
 {
   "coordinates" : [
     {
+      "roomName" : "A129",
       "coordinate" : [
         1448,
         660
-      ],
-      "roomName" : "A129"
+      ]
     },
     {
+      "roomName" : "A125",
       "coordinate" : [
         1626,
         1385
-      ],
-      "roomName" : "A125"
+      ]
     },
     {
       "roomName" : "WC",
@@ -22,11 +22,11 @@
       ]
     },
     {
-      "roomName" : "A124",
       "coordinate" : [
         1584,
         1413
-      ]
+      ],
+      "roomName" : "A124"
     },
     {
       "roomName" : "A134",
@@ -36,11 +36,11 @@
       ]
     },
     {
-      "roomName" : "A132-1",
       "coordinate" : [
         1264,
         1271
-      ]
+      ],
+      "roomName" : "A132-1"
     },
     {
       "roomName" : "A132-2",
@@ -52,7 +52,8 @@
   ],
   "roomPaths" : [
     {
-      "startRoom" : "A129",
+      "startAngle" : 170,
+      "endRoom" : "A132-1",
       "path" : [
         [
           1448,
@@ -63,12 +64,9 @@
           1271
         ]
       ],
-      "endRoom" : "A132-1",
-      "startAngle" : 170
+      "startRoom" : "A129"
     },
     {
-      "startRoom" : "A129",
-      "endRoom" : "A125",
       "startAngle" : 150,
       "path" : [
         [
@@ -87,9 +85,12 @@
           1626,
           1385
         ]
-      ]
+      ],
+      "endRoom" : "A125",
+      "startRoom" : "A129"
     },
     {
+      "startAngle" : 150,
       "endRoom" : "WC",
       "startRoom" : "A129",
       "path" : [
@@ -113,11 +114,11 @@
           1786,
           1385
         ]
-      ],
-      "startAngle" : 150
+      ]
     },
     {
       "startRoom" : "A129",
+      "endRoom" : "A124",
       "startAngle" : 150,
       "path" : [
         [
@@ -136,10 +137,10 @@
           1584,
           1413
         ]
-      ],
-      "endRoom" : "A124"
+      ]
     },
     {
+      "endRoom" : "A134",
       "path" : [
         [
           1448,
@@ -154,9 +155,8 @@
           2338
         ]
       ],
-      "startRoom" : "A129",
       "startAngle" : 150,
-      "endRoom" : "A134"
+      "startRoom" : "A129"
     },
     {
       "path" : [
@@ -169,11 +169,12 @@
           660
         ]
       ],
-      "startRoom" : "A132-1",
       "endRoom" : "A129",
+      "startRoom" : "A132-1",
       "startAngle" : 333
     },
     {
+      "startAngle" : 315,
       "path" : [
         [
           1264,
@@ -193,12 +194,11 @@
         ]
       ],
       "endRoom" : "A125",
-      "startAngle" : 315,
       "startRoom" : "A132-1"
     },
     {
-      "startAngle" : 315,
       "startRoom" : "A132-1",
+      "endRoom" : "WC",
       "path" : [
         [
           1264,
@@ -221,9 +221,12 @@
           1385
         ]
       ],
-      "endRoom" : "WC"
+      "startAngle" : 315
     },
     {
+      "startAngle" : 315,
+      "endRoom" : "A124",
+      "startRoom" : "A132-1",
       "path" : [
         [
           1264,
@@ -241,12 +244,11 @@
           1584,
           1413
         ]
-      ],
-      "endRoom" : "A124",
-      "startAngle" : 315,
-      "startRoom" : "A132-1"
+      ]
     },
     {
+      "endRoom" : "A134",
+      "startRoom" : "A132-1",
       "startAngle" : 315,
       "path" : [
         [
@@ -269,14 +271,10 @@
           1200,
           2338
         ]
-      ],
-      "startRoom" : "A132-1",
-      "endRoom" : "A134"
+      ]
     },
     {
       "startRoom" : "A132-2",
-      "endRoom" : "A129",
-      "startAngle" : 126,
       "path" : [
         [
           1286,
@@ -294,10 +292,12 @@
           1448,
           660
         ]
-      ]
+      ],
+      "endRoom" : "A129",
+      "startAngle" : 126
     },
     {
-      "endRoom" : "A125",
+      "startAngle" : 126,
       "path" : [
         [
           1286,
@@ -324,45 +324,46 @@
           1385
         ]
       ],
+      "startRoom" : "A132-2",
+      "endRoom" : "A125"
+    },
+    {
+      "path" : [
+        [
+          1286,
+          2030
+        ],
+        [
+          1286,
+          2067
+        ],
+        [
+          1448,
+          2067
+        ],
+        [
+          1448,
+          1287
+        ],
+        [
+          1540,
+          1287
+        ],
+        [
+          1626,
+          1385
+        ],
+        [
+          1786,
+          1385
+        ]
+      ],
+      "endRoom" : "WC",
       "startRoom" : "A132-2",
       "startAngle" : 126
     },
     {
-      "path" : [
-        [
-          1286,
-          2030
-        ],
-        [
-          1286,
-          2067
-        ],
-        [
-          1448,
-          2067
-        ],
-        [
-          1448,
-          1287
-        ],
-        [
-          1540,
-          1287
-        ],
-        [
-          1626,
-          1385
-        ],
-        [
-          1786,
-          1385
-        ]
-      ],
-      "startRoom" : "A132-2",
-      "startAngle" : 126,
-      "endRoom" : "WC"
-    },
-    {
+      "endRoom" : "A124",
       "path" : [
         [
           1286,
@@ -390,11 +391,10 @@
         ]
       ],
       "startAngle" : 126,
-      "startRoom" : "A132-2",
-      "endRoom" : "A124"
+      "startRoom" : "A132-2"
     },
     {
-      "startRoom" : "A132-2",
+      "startAngle" : 148,
       "endRoom" : "A134",
       "path" : [
         [
@@ -406,11 +406,9 @@
           2338
         ]
       ],
-      "startAngle" : 148
+      "startRoom" : "A132-2"
     },
     {
-      "endRoom" : "A129",
-      "startAngle" : 39,
       "path" : [
         [
           1626,
@@ -429,10 +427,13 @@
           660
         ]
       ],
-      "startRoom" : "A125"
+      "startRoom" : "A125",
+      "startAngle" : 152,
+      "endRoom" : "A129"
     },
     {
       "startRoom" : "A125",
+      "startAngle" : 180,
       "path" : [
         [
           1626,
@@ -443,11 +444,9 @@
           1413
         ]
       ],
-      "startAngle" : 180,
       "endRoom" : "A124"
     },
     {
-      "startRoom" : "A125",
       "path" : [
         [
           1626,
@@ -458,23 +457,19 @@
           1385
         ]
       ],
+      "startRoom" : "A125",
       "endRoom" : "WC",
-      "startAngle" : 219
+      "startAngle" : 34
     },
     {
       "startRoom" : "A125",
-      "endRoom" : "A134",
       "path" : [
         [
           1626,
           1385
         ],
         [
-          1584,
-          1385
-        ],
-        [
-          1584,
+          1540,
           1287
         ],
         [
@@ -490,73 +485,70 @@
           2338
         ]
       ],
-      "startAngle" : 39
-    },
-    {
-      "endRoom" : "A132-1",
-      "path" : [
-        [
-          1626,
-          1385
-        ],
-        [
-          1584,
-          1385
-        ],
-        [
-          1584,
-          1287
-        ],
-        [
-          1448,
-          1287
-        ],
-        [
-          1448,
-          1240
-        ],
-        [
-          1264,
-          1240
-        ],
-        [
-          1264,
-          1271
-        ]
-      ],
-      "startRoom" : "A125",
-      "startAngle" : 39
-    },
-    {
-      "startRoom" : "A124",
-      "startAngle" : 304,
-      "path" : [
-        [
-          1584,
-          1413
-        ],
-        [
-          1584,
-          1287
-        ],
-        [
-          1448,
-          1287
-        ],
-        [
-          1448,
-          2338
-        ],
-        [
-          1200,
-          2338
-        ]
-      ],
+      "startAngle" : 152,
       "endRoom" : "A134"
     },
     {
+      "path" : [
+        [
+          1626,
+          1385
+        ],
+        [
+          1540,
+          1287
+        ],
+        [
+          1448,
+          1287
+        ],
+        [
+          1448,
+          1240
+        ],
+        [
+          1264,
+          1240
+        ],
+        [
+          1264,
+          1271
+        ]
+      ],
+      "endRoom" : "A132-1",
+      "startRoom" : "A125",
+      "startAngle" : 152
+    },
+    {
+      "endRoom" : "A134",
+      "startRoom" : "A124",
+      "path" : [
+        [
+          1584,
+          1413
+        ],
+        [
+          1584,
+          1287
+        ],
+        [
+          1448,
+          1287
+        ],
+        [
+          1448,
+          2338
+        ],
+        [
+          1200,
+          2338
+        ]
+      ],
+      "startAngle" : 304
+    },
+    {
+      "startRoom" : "A124",
       "startAngle" : 0,
-      "endRoom" : "A125",
       "path" : [
         [
           1584,
@@ -567,12 +559,9 @@
           1385
         ]
       ],
-      "startRoom" : "A124"
+      "endRoom" : "A125"
     },
     {
-      "startRoom" : "A124",
-      "startAngle" : 0,
-      "endRoom" : "WC",
       "path" : [
         [
           1584,
@@ -586,9 +575,13 @@
           1786,
           1385
         ]
-      ]
+      ],
+      "endRoom" : "WC",
+      "startRoom" : "A124",
+      "startAngle" : 0
     },
     {
+      "endRoom" : "A129",
       "path" : [
         [
           1584,
@@ -607,12 +600,10 @@
           660
         ]
       ],
-      "startAngle" : 304,
-      "endRoom" : "A129",
-      "startRoom" : "A124"
+      "startRoom" : "A124",
+      "startAngle" : 304
     },
     {
-      "startAngle" : 304,
       "path" : [
         [
           1584,
@@ -639,12 +630,12 @@
           1271
         ]
       ],
-      "endRoom" : "A132-1",
-      "startRoom" : "A124"
+      "startRoom" : "A124",
+      "startAngle" : 304,
+      "endRoom" : "A132-1"
     },
     {
-      "startAngle" : 311,
-      "endRoom" : "A132-2",
+      "startRoom" : "A134",
       "path" : [
         [
           1200,
@@ -655,10 +646,11 @@
           2030
         ]
       ],
-      "startRoom" : "A134"
+      "startAngle" : 311,
+      "endRoom" : "A132-2"
     },
     {
-      "startAngle" : 34,
+      "startRoom" : "A134",
       "path" : [
         [
           1200,
@@ -685,12 +677,11 @@
           1385
         ]
       ],
-      "startRoom" : "A134",
+      "startAngle" : 34,
       "endRoom" : "WC"
     },
     {
       "endRoom" : "A125",
-      "startAngle" : 34,
       "path" : [
         [
           1200,
@@ -713,11 +704,10 @@
           1385
         ]
       ],
+      "startAngle" : 34,
       "startRoom" : "A134"
     },
     {
-      "startRoom" : "A134",
-      "endRoom" : "A129",
       "path" : [
         [
           1200,
@@ -730,39 +720,43 @@
         [
           1448,
           660
+        ]
+      ],
+      "endRoom" : "A129",
+      "startRoom" : "A134",
+      "startAngle" : 34
+    },
+    {
+      "startRoom" : "A134",
+      "endRoom" : "A124",
+      "path" : [
+        [
+          1200,
+          2338
+        ],
+        [
+          1448,
+          2338
+        ],
+        [
+          1448,
+          1287
+        ],
+        [
+          1584,
+          1287
+        ],
+        [
+          1584,
+          1413
         ]
       ],
       "startAngle" : 34
     },
     {
-      "startRoom" : "A134",
-      "startAngle" : 34,
-      "path" : [
-        [
-          1200,
-          2338
-        ],
-        [
-          1448,
-          2338
-        ],
-        [
-          1448,
-          1287
-        ],
-        [
-          1584,
-          1287
-        ],
-        [
-          1584,
-          1413
-        ]
-      ],
-      "endRoom" : "A124"
-    },
-    {
-      "startAngle" : 39,
+      "endRoom" : "A129",
+      "startRoom" : "WC",
+      "startAngle" : 214,
       "path" : [
         [
           1786,
@@ -784,13 +778,9 @@
           1448,
           660
         ]
-      ],
-      "endRoom" : "A129",
-      "startRoom" : "WC"
+      ]
     },
     {
-      "startAngle" : 39,
-      "startRoom" : "WC",
       "path" : [
         [
           1786,
@@ -821,11 +811,13 @@
           1271
         ]
       ],
+      "startRoom" : "WC",
+      "startAngle" : 214,
       "endRoom" : "A132-1"
     },
     {
       "startRoom" : "WC",
-      "endRoom" : "A124",
+      "startAngle" : 214,
       "path" : [
         [
           1786,
@@ -840,11 +832,10 @@
           1413
         ]
       ],
-      "startAngle" : 39
+      "endRoom" : "A124"
     },
     {
-      "endRoom" : "A125",
-      "startAngle" : 39,
+      "startAngle" : 214,
       "startRoom" : "WC",
       "path" : [
         [
@@ -855,12 +846,11 @@
           1626,
           1385
         ]
-      ]
+      ],
+      "endRoom" : "A125"
     },
     {
-      "startRoom" : "WC",
       "endRoom" : "A134",
-      "startAngle" : 39,
       "path" : [
         [
           1786,
@@ -886,7 +876,9 @@
           1200,
           2338
         ]
-      ]
+      ],
+      "startRoom" : "WC",
+      "startAngle" : 214
     }
   ]
 }
